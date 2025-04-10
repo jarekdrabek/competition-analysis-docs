@@ -1,94 +1,96 @@
-Welcome!
+# 🕵️ Competition & Industry Insights – Social Media Tracker
 
-# Competition & Industry Insights – Social Media Tracker
+A SaaS tool that analyzes public Facebook posts from your competitors and delivers simple, digestible summaries daily.
 
-This is a SaaS tool that helps businesses monitor their competitors' public social media activity — starting with Facebook Pages. 
+Our mission is to help businesses stay ahead of the competition by monitoring key social media activity across their industry — automatically, and without the noise.
 
-### 🔍 What It Does
+---
 
-Clients provide links to 3–5 of their competitors’ Facebook Pages. Our system automatically tracks and summarizes their public posts, highlights trends, and delivers clean, formatted daily reports — helping brands stay informed and make strategic decisions.
+## 📑 Table of Contents
 
-### ⚙️ Features
+- [Overview](#overview)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Tech Stack](#tech-stack)
+- [Legal Documents](#legal-documents)
+  - [Privacy Policy](privacy-policy.md)
+  - [Terms of Service](docs/terms-of-service.md)
+  - [User Data Deletion Instructions](docs/data-deletion.md)
+- [Deployment Notes](#deployment-notes)
+- [Contact](#contact)
 
-- Track public Facebook posts from competitor Pages
-- Summarize key activity and engagement trends
-- Get daily email reports with insights
-- Privacy-first, using only publicly available data via Facebook Graph API
+---
 
-### 📄 Legal
+## 📝 Overview
 
-This app uses the Facebook Graph API and requires `Page Public Content Access`.  
-Privacy policy and user data deletion instructions are included below
+Clients provide links to 3–5 of their competitors’ public Facebook Pages. Our platform uses the Facebook Graph API to analyze and summarize public posts, identify trends, and deliver clear, actionable insights in a daily email report.
 
-### 🚀 Status
+This gives businesses a competitive edge without the time-consuming manual monitoring.
 
-This is a work-in-progress MVP. GitHub Pages are used to host the public-facing legal documents for API review.
+---
 
+## 🚀 Features
 
+- ✅ Track public Facebook Page activity
+- ✅ Summarize competitor posts and campaigns
+- ✅ Identify trending keywords and content types
+- ✅ Receive daily email updates
+- ✅ GDPR-compliant & privacy-focused
 
-# User Data Deletion Instructions
+---
 
-If you would like to request the deletion of your data from our systems, please follow these steps:
+## ⚙️ How It Works
 
-1. Send an email to **jarekdrabek@gmail.com** with the subject line **"Delete My Data"**.
-2. In the message body, include the email address or identifier you used with our service.
-3. We will verify your request and identity.
-4. Once verified, your data will be deleted from our systems within **7 business days**.
-5. You will receive a confirmation email once deletion is complete.
+1. **User Onboarding**  
+   Clients input links to competitors' public Facebook Pages.
 
-For any questions regarding data usage or privacy, feel free to contact us at the same address.
+2. **Data Collection**  
+   We use Facebook’s Graph API (with `Page Public Content Access`) to pull public post data.
 
+3. **Analysis & Reporting**  
+   Our backend analyzes patterns, engagement, and post frequency, and generates summaries.
 
-# Privacy Policy  
-_Last Updated: April 10, 2025_
+4. **Delivery**  
+   Clients receive formatted reports via email or web dashboard.
 
-Thank you for using our service (“we”, “us”, or “our”), a platform for analyzing public social media content for competitive and industry insights.
+---
 
-## 1. Information We Collect
+## 🛠️ Tech Stack
 
-We collect the following types of information:
+- **Backend**: Python / Node.js
+- **API**: Facebook Graph API
+- **Frontend**: Simple dashboard (optional)
+- **Notifications**: Email delivery (Postmark, SendGrid, or similar)
+- **Hosting**: GitHub Pages (for public legal docs), AWS/Render/Vercel (app backend)
 
-- **Public Social Media Data**: Public posts and content from Facebook Pages that you provide (competitors' pages).
-- **User-Provided Information**: Such as your name, email address, and competitor links when you sign up.
-- **Usage Data**: Aggregated and anonymized data about how you use our service (e.g., frequency of analysis, summary requests).
+---
 
-We **do not collect or access any private user content from Facebook**. All Facebook data collected is public and available via the Graph API under the “Page Public Content Access” permission.
+## 📄 Legal Documents
 
-## 2. How We Use Your Information
+This project complies with Facebook’s Platform Policy and App Review requirements.
 
-We use the collected data to:
+- [Privacy Policy](privacy-policy.md)
+- [Terms of Service](terms-of-service.md)
+- [User Data Deletion Instructions](data-deletion.md)
 
-- Generate summaries and insights from public Facebook Page activity.
-- Deliver daily reports and alerts about competitor activity.
-- Improve and personalize your experience.
+All data collected is public, and the app does **not** access personal Facebook user data.
 
-## 3. Data Sharing
+---
 
-We do **not sell or share your personal data** with third parties.  
-We may share anonymized, aggregate-level insights for marketing or research purposes.
+## 📦 Deployment Notes
 
-## 4. Data Retention
+- This repository is private.
+- Legal documentation is hosted publicly using **GitHub Pages** from the `/docs` folder.
+- Access tokens are stored securely and refreshed periodically.
+- Facebook App Review includes this GitHub Pages site to verify public links.
 
-We retain user information for as long as your account is active or as needed to provide services. You can request deletion at any time (see below).
+---
 
-## 5. User Data Deletion
+## 📬 Contact
 
-If you would like to request deletion of your data, please email us at **jarekdrabek@gmail.com**.  
-We will respond within 7 business days and confirm once deletion is complete.
+Have questions, feedback, or a deletion request?  
+Reach out at **jarekdrabek@gmail.com**
 
-## 6. Cookies & Tracking
+---
 
-Our site may use cookies for analytics and improving the user experience. You can manage your preferences via your browser settings.
-
-## 7. Third-Party Services
-
-We may use trusted third-party services like email delivery tools or analytics providers. These services are compliant with relevant data protection laws.
-
-## 8. Security
-
-We take reasonable steps to protect your data from unauthorized access, loss, or disclosure.
-
-## 9. Contact Us
-
-If you have any questions about this policy or our data practices, please contact us at:  
-**jarekdrabek@gmail.com**
+> © 2025 Competition Analysis SaaS – All rights reserved.

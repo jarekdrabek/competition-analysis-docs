@@ -57,11 +57,11 @@ This gives businesses a competitive edge without the time-consuming manual monit
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Python / Node.js
-- **API**: Facebook Graph API
-- **Frontend**: Simple dashboard (optional)
+- **Backend**: Python
+- **API**: Facebook Graph API, Flask
+- **Frontend**: React.JS
 - **Notifications**: Email delivery (Postmark, SendGrid, or similar)
-- **Hosting**: GitHub Pages (for public legal docs), AWS/Render/Vercel (app backend)
+- **Hosting**: GitHub Pages (for public legal docs), Google Cloud Platform
 
 ---
 

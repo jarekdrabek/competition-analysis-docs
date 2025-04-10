@@ -1,5 +1,30 @@
 Welcome!
 
+# Competition & Industry Insights – Social Media Tracker
+
+This is a SaaS tool that helps businesses monitor their competitors' public social media activity — starting with Facebook Pages. 
+
+### 🔍 What It Does
+
+Clients provide links to 3–5 of their competitors’ Facebook Pages. Our system automatically tracks and summarizes their public posts, highlights trends, and delivers clean, formatted daily reports — helping brands stay informed and make strategic decisions.
+
+### ⚙️ Features
+
+- Track public Facebook posts from competitor Pages
+- Summarize key activity and engagement trends
+- Get daily email reports with insights
+- Privacy-first, using only publicly available data via Facebook Graph API
+
+### 📄 Legal
+
+This app uses the Facebook Graph API and requires `Page Public Content Access`.  
+Privacy policy and user data deletion instructions are included below
+
+### 🚀 Status
+
+This is a work-in-progress MVP. GitHub Pages are used to host the public-facing legal documents for API review.
+
+
 
 # User Data Deletion Instructions
 

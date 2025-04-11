@@ -14,8 +14,8 @@ Our mission is to help businesses stay ahead of the competition by monitoring ke
 - [Tech Stack](#tech-stack)
 - [Legal Documents](#legal-documents)
   - [Privacy Policy](privacy-policy.md)
-  - [Terms of Service](docs/terms-of-service.md)
-  - [User Data Deletion Instructions](docs/data-deletion.md)
+  - [Terms of Service](terms-of-service.md)
+  - [User Data Deletion Instructions](data-deletion.md)
 - [Deployment Notes](#deployment-notes)
 - [Contact](#contact)
 

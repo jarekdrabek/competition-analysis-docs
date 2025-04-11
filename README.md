@@ -92,5 +92,3 @@ Have questions, feedback, or a deletion request?
 Reach out at **jarekdrabek@gmail.com**
 
 ---
-
-> © 2025 Competition Analysis SaaS – All rights reserved.

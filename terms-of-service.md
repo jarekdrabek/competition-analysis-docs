@@ -60,7 +60,7 @@ We may update these Terms at any time. If we make significant changes, we’ll n
 
 ## 10. Governing Law
 
-These Terms are governed by the laws of [Your Country/Region]. Any disputes will be handled in accordance with local regulations.
+These Terms are governed by the laws of Poland. Any disputes will be handled in accordance with local regulations.
 
 ## 11. Contact
 
